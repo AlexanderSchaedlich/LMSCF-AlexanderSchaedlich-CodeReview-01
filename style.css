@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+#container {
+	width: 100%;
+}
+#content {
+	width: 85%;
+	margin: auto;
+}
+header, footer {
+	background-color: #CABBB7;
+}
+nav {
+	background-color: #C65252;
+}
+#logoBar {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#logoBar h1 {
+	font-size: 2em;
+	font-weight: 600;
+	margin: 40px;
+}
+#logoBar img {
+	width: 450px;
+	height: auto;
+	margin: 50px;
+}
+nav {
+	padding: 15px 100px;
+}
+nav ul {
+	text-align: right;
+}
+nav li {
+	display: inline;
+	margin-left: 25px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 2.2em;
+	font-weight: 600;
+}
+#title {
+	margin: auto;
+	padding: 50px 0 100px 0;
+	width: 800px;
+	text-align: center;
+	font-size: 3.5em;
+}
+#phone {
+	padding-bottom: 35px;
+}
+#phone #backgroundImage {
+	height: 322px;
+	width: 1077px;
+	background-position: 0% -200px;
+}
+.captionText {
+	font-size: 1.8em;
+	font-weight: 600;
+	text-align: center;
+}
+#debitCard .captionText {
+	width: 503px;
+}
+#wrapper {
+	padding-bottom: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+#debitCard img, #taxifyScooters img {
+	height: 280px;
+	width: auto;
+}
+footer {
+	padding: 30px;
+}
+footer img {
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	height: auto;
+	margin-bottom: 20px;
+}
+footer p {
+	text-align: center;
+	font-size: 1.5em;
+}
