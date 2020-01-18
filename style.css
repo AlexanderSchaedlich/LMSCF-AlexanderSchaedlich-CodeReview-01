@@ -74,8 +74,6 @@ nav a {
 	column-count: 2;
 }
 #debitCard > *, #taxifyScooters > * {
-	/*I think if you just write down the width=80% or whatever percents you won`t need the height property at all.
-	These elements will orientate to the width of their parent container*/
 	width: 95%;
 }
 #debitCard img {

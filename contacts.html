@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<style>
+		#myContacts {
+			margin: auto;
+			text-align: center;
+			padding-bottom: 100px;
+		}
+		#myContacts input, button {
+			height: 80px;
+			width: 600px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		button {
+			display: block;
+			background-color: #C65252;
+			color: white;
+			margin:auto;
+			height: 80px;
+			margin-top: 60px;
+			border: gray 1px solid;
+			font-size: 30px;
+		} 
+		#myContacts {
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+
+	<header>
+
+		<div id="logoBar">
+			<h1>Alexander - Future Web Developer</h1>
+			<img src="img/logo.png" alt="logo">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="about_me.html">About me</a></li>
+				<li><a href="contacts.html">Contacts</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<div id="content">
+
+		<main>
+
+			<section id="title">
+				<h1>Contacts form :D</h1>
+			</section>
+
+			<section id="myContacts">
+
+				<form>
+						
+					<div>Please, use this formular to be contacted with us</div>
+
+					<div>Your Name (at least two characters)</div>
+					<input type="text" name="name" required>
+
+					<div>Your E-mail (obligatory)</div>
+					<input type="email" name="email" required>
+
+					<div>Your Phone-number (optional)</div>
+					<input type="phone" name="phone">
+
+					<div>Your Comment (optional)</div>
+					<input type="text" name="comment">
+
+					<button type="submit">Send</button>
+				
+				</form>
+
+			</section>
+
+		</main>
+
+	</div>
+
+	<footer>
+		<img src="img/logo.png" alt="logo">
+		<p>Alexander - CodeFactory 2020</p>
+	</footer>
+	
+</div>
+</body>
+</html>
